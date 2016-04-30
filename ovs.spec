@@ -4,7 +4,7 @@
 #
 Name     : ovs
 Version  : 2.5.0
-Release  : 4
+Release  : 5
 URL      : https://pypi.python.org/packages/source/o/ovs/ovs-2.5.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/o/ovs/ovs-2.5.0.tar.gz
 Summary  : Open vSwitch library
