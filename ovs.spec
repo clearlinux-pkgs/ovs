@@ -4,7 +4,7 @@
 #
 Name     : ovs
 Version  : 2.9.2
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/43/a1/78f54030f34ae8b818d85fcbafcd9ae148f97c0d0f7955ecc217a30d6a10/ovs-2.9.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/43/a1/78f54030f34ae8b818d85fcbafcd9ae148f97c0d0f7955ecc217a30d6a10/ovs-2.9.2.tar.gz
 Summary  : Open vSwitch library
@@ -46,7 +46,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1533876835
+export SOURCE_DATE_EPOCH=1533905460
 python3 setup.py build -b py3
 
 %install
