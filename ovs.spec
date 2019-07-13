@@ -4,7 +4,7 @@
 #
 Name     : ovs
 Version  : 2.11.0
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/81/06/387b2159ac073de95e484aa6e2f108a232cd906e350307168843061f899f/ovs-2.11.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/81/06/387b2159ac073de95e484aa6e2f108a232cd906e350307168843061f899f/ovs-2.11.0.tar.gz
 Summary  : Open vSwitch library
