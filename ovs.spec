@@ -4,7 +4,7 @@
 #
 Name     : ovs
 Version  : 2.11.0
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/81/06/387b2159ac073de95e484aa6e2f108a232cd906e350307168843061f899f/ovs-2.11.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/81/06/387b2159ac073de95e484aa6e2f108a232cd906e350307168843061f899f/ovs-2.11.0.tar.gz
 Summary  : Open vSwitch library
@@ -34,6 +34,7 @@ Summary: python3 components for the ovs package.
 Group: Default
 Requires: python3-core
 Provides: pypi(ovs)
+Requires: pypi(sortedcontainers)
 
 %description python3
 python3 components for the ovs package.
@@ -48,8 +49,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583196199
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1585855867
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
