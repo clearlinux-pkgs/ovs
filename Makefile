@@ -1,5 +1,5 @@
 PKG_NAME := ovs
-URL = https://files.pythonhosted.org/packages/81/06/387b2159ac073de95e484aa6e2f108a232cd906e350307168843061f899f/ovs-2.11.0.tar.gz
+URL = https://files.pythonhosted.org/packages/93/85/7f783d6872c41c1e95495c5a6ff3e20f7fd276e9fb2394c77d49a07ab6e6/ovs-2.13.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
